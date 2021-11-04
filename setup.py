@@ -19,7 +19,7 @@ setuptools.setup(
      name='pydisfish',
      version=version,
      author='kajdev',
-     description="An easy utility to extract links from text.",
+     description="A small module to easily interact with discord's phishing domain list.",
      long_description=long_description,
      long_description_content_type="text/markdown",
      url="https://github.com/kajdev/pydisfish",
