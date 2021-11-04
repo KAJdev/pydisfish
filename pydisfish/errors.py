@@ -16,5 +16,5 @@ class FetchError(PyDisFishError):
 class NotReady(PyDisFishError):
     """Error that's raised when trying to check a URL before Phisherman is ready
 
-    you should use Phiserman.ready to tell when the domain list has been fetched
+    you should use Phisherman.ready to tell when the domain list has been fetched
     """
