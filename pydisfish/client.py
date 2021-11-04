@@ -23,9 +23,10 @@ class Phisherman():
 
         self.ready: bool = False
 
-        loop = asyncio.get_event_loop()
-        if loop is not None:
-            loop.run_until_complete(self.fetch())
+        if options.get('do_fetch', True):
+            loop = asyncio.get_event_loop()
+            if loop is not None:
+                loop.run_until_complete(self.fetch())
 
     async def fetch(self) -> None:
         """
