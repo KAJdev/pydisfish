@@ -18,3 +18,5 @@ class NotReady(PyDisFishError):
 
     you should use Phisherman.ready to tell when the domain list has been fetched
     """
+    
+    pass
